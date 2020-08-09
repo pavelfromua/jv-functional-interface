@@ -13,6 +13,6 @@ public class RandomColor implements Supplier {
     public String get() {
         Random random = new Random();
 
-        return COLORS[random.nextInt(COLORS.length) -1];
+        return COLORS[random.nextInt(COLORS.length) - 1];
     }
 }
